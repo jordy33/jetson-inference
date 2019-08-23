@@ -20,7 +20,14 @@ cd build
 cmake ../
 ```
 
-Installing support glxgears
+Compiling
+```
+cd jetson-inference/build          # omit if pwd is already /build from above
+make
+sudo make install
+```
+
+Installing glxgears (OpenGL Test)
 
 ```
 sudo apt-get install mesa-utils
